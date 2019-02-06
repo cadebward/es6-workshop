@@ -1,0 +1,27 @@
+{
+  "name": "ES6-Workshop",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "keywords": ["workshop", "es6"],
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "chalk": "^2.3.2",
+    "chokidar": "^2.0.3",
+    "concurrently": "^3.5.1",
+    "eslint": "^4.19.1",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.5",
+    "onchange": "^3.3.0",
+    "pretty-format": "^22.4.3",
+    "replace-in-file": "^3.4.0",
+    "split-guide": "^3.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
+  }
+}

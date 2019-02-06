@@ -1,0 +1,37 @@
+{
+  "name": "es6-workshop",
+  "version": "0.0.30",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "workshop",
+    "es6"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "react-scripts": "1.0.0",
+    "babel-cli": "^6.26.0",
+    "chalk": "^2.3.2",
+    "chokidar": "^2.0.3",
+    "concurrently": "^3.5.1",
+    "eslint": "^4.19.1",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.5",
+    "onchange": "^3.3.0",
+    "pretty-format": "^22.4.3",
+    "replace-in-file": "^3.4.0",
+    "split-guide": "^3.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "description": "[![slides-badge][slides-badge]][slides] [![chat-badge][chat-badge]][chat] [![Build Status][build-badge]][build] [![Dependencies][dependencyci-badge]][dependencyci] [![MIT License][license-badge]][license] [![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors)"
+}
